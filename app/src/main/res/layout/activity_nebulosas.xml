@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.Nebulosas"
+    android:background="@android:color/black">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="proximaTelaVoltar"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Céu profundo é um termo astronômico utilizado como referência de objectos astronómicos com visibilidade débil a grandes distâncias da Terra, como aglomerados globulares, nebulosas e galáxias. De forma geral estes objetos aparecem agrupados em diferentes catálogos astronómicos como o catálogo Messier ou o NGC."
+                android:textColor="#ffffff"
+                android:padding="15sp"
+                android:textSize="20sp"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="30dp"
+                android:text="Caixa de Jóias"
+                android:textColor="#ffffff"
+                android:textSize="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text=""
+
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                app:srcCompat="@drawable/caixadejoias"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="A Constelação de Centauro, é representada por uma criatura mitológica metade homem, metade cavalo.
+Na parte superior, uma estrela representa a cabeça, de onde sai uma linha em posição diagonal que liga-se a duas pequenas estrelas que representam o pescoço, cortando estas, uma linha em sentido horizontal forma os braços do homem que está de braços abertas segurando uma lança em posição diagonal com ambas as mãos.
+"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="25dp"
+                android:text="Omega Centuri"
+                android:textColor="#ffffff"
+                android:textSize="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text=""
+
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                app:srcCompat="@drawable/omegacenturi"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="A Constelação de Centauro, é representada por uma criatura mitológica metade homem, metade cavalo.
+Na parte superior, uma estrela representa a cabeça, de onde sai uma linha em posição diagonal que liga-se a duas pequenas estrelas que representam o pescoço, cortando estas, uma linha em sentido horizontal forma os braços do homem que está de braços abertas segurando uma lança em posição diagonal com ambas as mãos.
+"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
